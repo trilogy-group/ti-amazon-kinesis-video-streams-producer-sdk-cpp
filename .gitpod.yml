@@ -12,5 +12,6 @@ tasks:
       export GST_PLUGIN_PATH=`pwd`/build
       export LD_LIBRARY_PATH=`pwd`/open-source/local/lib
       echo "Echoing the stored paths -> $GST_PLUGIN_PATH $LD_LIBRARY_PATH"
+      export AWS_DEFAULT_REGION=us-east-1
       echo "Verifying kvssink"
       gst-inspect-1.0 kvssink
