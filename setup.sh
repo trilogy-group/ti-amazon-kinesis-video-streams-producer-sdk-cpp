@@ -14,3 +14,5 @@ echo "Echoing the stored paths -> $GST_PLUGIN_PATH $LD_LIBRARY_PATH"
 
 echo "Verifying kvssink"
 gst-inspect-1.0 kvssink
+
+# ./kvs_gstreamer_sample agaba-merlyn-test ../videos/robert_downey.mp4
